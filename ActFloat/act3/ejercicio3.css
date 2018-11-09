@@ -1,0 +1,76 @@
+body {
+  background-color: lightgrey;
+}
+
+p:not(:first-child) {
+  border: 2px solid black;
+  padding-top: 0.5em;
+
+}
+
+p:hover {
+  z-index: 2;
+}
+
+
+#m1 {
+  background-color: #DBC9A6;
+  position: absolute;
+  width: 40%;
+  height: 7%;
+  left: 28%;
+  text-align: center;
+
+}
+
+#m2 {
+  background-color: #91FF91;
+  position: absolute;
+  width: 25%;
+  height: 23%;
+  top: 20%;
+  left: 17%;
+  text-align: left;
+
+}
+
+#m3 {
+  background-color: #FFFFB3;
+  position: absolute;
+  width: 25%;
+  height: 23%;
+  top: 20%;
+  left: 53%;
+  text-align: right;
+}
+
+#m4 {
+  background-color: #C6FFFF;
+  position: absolute;
+  width: 25%;
+  height: 23%;
+  top: 37%;
+  left: 35%;
+  text-align: center;
+  z-index: 1;
+}
+
+#m5 {
+  background-color: #FFE5FF;
+  position: absolute;
+  width: 25%;
+  height: 23%;
+  top: 55%;
+  left: 53%;
+  text-align: right;
+}
+
+#m6 {
+  background-color: #FFB4B4;
+  position: absolute;
+  width: 25%;
+  height: 23%;
+  top: 55%;
+  left: 17%;
+  text-align: left;
+}

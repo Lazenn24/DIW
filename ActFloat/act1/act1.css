@@ -1,0 +1,14 @@
+#left {
+  float:left;
+}
+
+#right {
+  float:right;
+}
+
+div {
+  border: 1px solid grey;
+  padding: 1em;
+  padding-bottom: 2em;
+  background-color: lightgrey;
+}

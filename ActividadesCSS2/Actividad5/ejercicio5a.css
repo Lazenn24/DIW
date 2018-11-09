@@ -1,0 +1,26 @@
+h1 {
+  text-align: right;
+  text-transform: uppercase;
+}
+body{
+  background-color: #ffcc99;
+  font-family: sans-serif;
+}
+th{
+
+  height: 35px;
+  vertical-align: bottom;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 35px;
+  empty-cells: hide;
+}
