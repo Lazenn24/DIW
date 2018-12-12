@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  color: white;
+  text-align: justify;
+  background-image: url(imagenes/matrix.png), url(imagenes/matrix2.png);
+  background-position: left, right;
+  background-repeat: repeat-y, repeat-y;
+}
+
+.nomJuego {
+  color: yellow;
+}
+
+.autor {
+  color: red;
+}
+
+.fecha {
+  color: #04C204;
+}
+
+#titulo {
+  color: #04C204;
+  font-size: 300%;
+  font-family: monospace;
+  border-bottom: 2px solid;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: -60px;
+  letter-spacing: 45px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.juego {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+
+}
+
+.juego img {
+  border: 5px solid white;
+}
+
+.cabecera {
+  border-bottom: 2px solid white;
+  letter-spacing: 20px;
+  font-size: 200%;
+  background-color: #04C204;
+  margin-top: 0%;
+  font-variant: small-caps;
+
+}
+
+#pong {
+  border: 2px solid white;
+  padding-bottom: 6%;
+
+}
+
+#pong img {
+  float: right;
+  margin-left: 1%;
+  margin-right: 1%;
+  outline: 5px solid #04C204;
+}
+
+#space #texto {
+  border: 2px solid white;
+  padding-bottom: 0%;
+  width: 40%;
+  margin-left: 60%;
+}
+
+#space img {
+  float: left;
+  outline: 5px solid #04C204;
+}
+
+#pacman {
+  border: 2px solid white;
+  padding-bottom: 7%;
+}
+#pacman img {
+  float: right;
+  margin-left: 1%;
+  margin-right: 1%;
+  outline: 5px solid #04C204;
+}
+
+
+#pie {
+ margin-top: 1%;
+ text-align: center;
+ border-top: 2px solid #04C204;
+ border-bottom: 2px solid #04C204;
+ margin-left: 10%;
+ margin-right: 10%;
+ text-align: left;
+
+}

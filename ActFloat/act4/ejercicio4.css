@@ -1,0 +1,60 @@
+body {
+  background-color: navajowhite;
+}
+
+p {
+  background-color: white;
+  border-radius: 0.5em;
+  position:absolute;
+  width: 35%;
+  top:30%;
+  left: 30%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#gato:hover div {
+  z-index: 1;
+
+}
+
+ div #tele:hover {
+  z-index: 1;
+}
+
+div #periodico:hover {
+  z-index: 1;
+}
+
+div #dinero:hover {
+  z-index: 1;
+}
+
+#cuarta {
+  z-index: 1;
+}
+
+#dinero {
+  position: absolute;
+
+}
+
+
+
+#gato {
+  position:absolute;
+  left: 90%;
+
+}
+
+#periodico {
+  position:absolute;
+  top: 85%
+
+}
+
+#tele {
+  position:absolute;
+  top: 75%;
+  left: 90%;
+
+}
