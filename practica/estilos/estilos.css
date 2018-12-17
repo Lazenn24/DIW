@@ -82,24 +82,68 @@ section div {
 }
 
 .mueveeltexto {
-  width: 40%;
-  height: 80%;
-  float: left;
+  background: url(../imagenes/blade.jpg) no-repeat;
+  background-size: cover;
 }
 
 .mueveeltexto2 {
-  width: 40%;
-  height: 80%;
-  float: right;
+  background: url(../imagenes/leia.jpg) no-repeat;
+  background-size: cover;
 }
 
 .mueveeltexto3 {
-  width: 40%;
-  height: 40%;
-  float: left;
+  background: url(../imagenes/gattaca.jpg) no-repeat;
+  background-size: cover;
 }
 
-.mueveeltexto img {
-  max-width: 50%;
-  max-height: 80%;
-  object-fit: contain;
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 500% 500%;
+  grid-row-gap: 10%;
+  grid-column-gap: 10%;
+}
+
+.item1, .item2, .item3 {
+  padding-bottom: 60%;
+}
+
+.item3 {
+  padding-bottom: 80%;
+}
+
+.item1 div, .item2 div, .item3 div {
+  background-color: #ff0080;
+  position: relative;
+  top: 215%;
+}
+
+.item2 div {
+  opacity: 0;
+}
+
+@-moz-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+.item2:hover {
+  -webkit-fadeIn: fadeIn;
+  -moz-fadeIn: fadeIn;
+  -ms-fadeIn: fadeIn;
+  -o-fadeIn: fadeIn;
+  fadeIn: fadeIn;
+}
