@@ -75,6 +75,7 @@ nav a:first-of-type {
 
 section {
   margin-top: 2%;
+  overflow: hidden;
 }
 
 section div {
@@ -102,6 +103,7 @@ section div {
   grid-template-rows: 500% 500%;
   grid-row-gap: 10%;
   grid-column-gap: 10%;
+  margin-left: 7%;
 }
 
 .item1, .item2, .item3 {
@@ -115,35 +117,88 @@ section div {
 .item1 div, .item2 div, .item3 div {
   background-color: #ff0080;
   position: relative;
-  top: 215%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.item1 div p, .item2 div p {
+  margin-left: 2%;
+}
+
+.item1 div {
+  opacity: 0;
+  top: 280%;
+  height: 120%;
+  -webkit-transition: opacity 2s, top 2s;
+  -moz-transition: opacity 2s, top 2s;
+  transition: opacity 2s, top 2s;
 }
 
 .item2 div {
+  height: 120%;
   opacity: 0;
+  top: 252%;
 }
 
-@-moz-keyframes fadeIn {
-  100% {
-    opacity: 1;
-  }
+.item1 {
+  overflow: hidden;
 }
 
-@-webkit-keyframes fadeIn {
-  100% {
-    opacity: 1;
-  }
+.item1 div p:first-of-type, .item2 div p:first-of-type {
+  color: white;
 }
 
 @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
   100% {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 
-.item2:hover {
-  -webkit-fadeIn: fadeIn;
-  -moz-fadeIn: fadeIn;
-  -ms-fadeIn: fadeIn;
-  -o-fadeIn: fadeIn;
-  fadeIn: fadeIn;
+.item2:hover div {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.item1:hover div {
+  opacity: 0.8;
+  top: 252%;
+}
+
+.item3{
+  box-sizing: border-box;
+  background-color: #ff0080;
+  -webkit-transition: opacity 2s;
+  -moz-transition: opacity 2s;
+  transition: opacity 2s;
+  position: relative;
+  padding: 50%;
+}
+
+.item3 div{
+  position: absolute;
+  text-align: center;
+  font-size: 400%;
+  transition: opacity 2s;
+  opacity: 0;
+}
+.item3 div:first-of-type {
+  padding: 40% 23.4%;
+
+}
+
+.item3:hover div {
+  opacity: 0.8;
+}
+
+.item3 div:not(:first-of-type) {
+  background-color: black;
+  color: white;
+  top: 75%;
+  padding: 0% 5%;
 }

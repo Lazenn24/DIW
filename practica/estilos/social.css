@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.social-bar {
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+
+.social-bar ul {
+  list-style: none;
+}
+
+.social a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-bottom: 3px;
+}
+
+
+.icon-facebook {
+  background: #3b5998;
+  width: 100%;
+  -moz-transition: width 1s, border-radius 1s;
+  }
+
+.icon-facebook:hover {
+  border-radius: 10%;
+  width: 150%;
+}
+.icon-twitter:hover {
+  border-radius: 10%;
+  width: 150%;
+}
+.icon-pinterest2:hover {
+  border-radius: 10%;
+  width: 150%;
+}
+.icon-instagram:hover {
+  border-radius: 10%;
+  width: 150%;
+}
+.icon-envelop:hover {
+  border-radius: 10%;
+  width: 150%;
+}
+
+.icon-twitter {
+  background: #00aced;
+  width: 100%;
+  transition: border-radius 1s, width 1s;
+}
+
+.icon-pinterest2 {
+  background: red;
+  width: 100%;
+  transition: border-radius 1s, width 1s;
+}
+
+.icon-instagram {
+  background: #8a3ab9;
+  width: 100%;
+  transition: border-radius 1s, width 1s;
+}
+
+.icon-envelop {
+  background: grey;
+  width: 100%;
+  transition: border-radius 1s, width 1s;
+}

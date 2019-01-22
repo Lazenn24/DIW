@@ -1,0 +1,30 @@
+.col-md-12 {
+  text-align: center;
+  background-color: palegreen;
+}
+
+.lista{
+  background-color: aquamarine;
+  height: 30%;
+}
+
+.col-md-8 {
+  background-color: lemonchiffon;
+
+}
+
+.sec-1, .sec-3{
+  background-color: lightcoral;
+}
+
+.sec-2 {
+  background-color: aquamarine;
+}
+
+.alice {
+  text-align: right;
+}
+
+.grey {
+  color: grey;
+}

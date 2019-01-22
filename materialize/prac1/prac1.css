@@ -1,0 +1,32 @@
+.cabecera {
+  background-color: #ccffcc;
+  text-align: center;
+}
+
+.quote {
+  text-align: right;
+}
+
+.gris {
+  color: grey;
+}
+
+.cita {
+  font-size: 90%;
+}
+
+.lista {
+  background-color: #b3d9ff;
+}
+
+.javascript {
+  background-color: #ffffcc;
+}
+
+.sec1, .sec3 {
+  background-color: #ffcccc;
+}
+
+.sec2 {
+  background-color: #b3d9ff;
+}
