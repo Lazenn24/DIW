@@ -1,0 +1,30 @@
+.nombre {
+  border-radius: 50px;
+  padding-right: 5px;
+}
+
+.par {
+background-color: #2962ff;
+
+}
+
+.impar {
+  background-color: #448aff;
+}
+
+.accesos {
+  height:8em;
+}
+
+.row.center-align {
+  margin-top: 5%;
+}
+
+.iconos-acceso {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.sidenav-link {
+  margin-bottom: -6%;
+}

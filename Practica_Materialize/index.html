@@ -12,6 +12,7 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/css.css">
 </head>
 
 <body>
@@ -35,20 +36,77 @@
     <li>
       <div class="user-view">
         <div class="background">
-          <img src="images/office.jpg">
+          <img src="imagenes/pikachu.jpg">
         </div>
-        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-        <a href="#name"><span class="white-text name">John Doe</span></a>
-        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+        <a href="#user"><img height="120" width="120" class="circle" src="imagenes/pikachu.jpg"></a>
+        <a href="#name"><span class="white-text name">Guillero Puertas</span></a>
+        <a href="#email"><span class="white-text email">guillermopuertas@usagmail.com</span></a>
       </div>
     </li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li>
-      <div class="divider"></div>
+    <li class="grey-text text-darken-2">
+
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left text-grey text-lighten-1"><i class="material-icons">mouse</i></div>
+        <div class="col s6 left-align">
+          <p>A un click</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
     </li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">library_books</i></div>
+        <div class="col s6 left">
+          <p>Documentos</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
+    </li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">school</i></div>
+        <div class="col s6 left">
+          <p>Tutorías</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
+    </li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">group</i></div>
+        <div class="col s6 left">
+          <p>¿Quién es quién?</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
+    </li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">help</i></div>
+        <div class="col s6 left">
+          <p>Qué necesitas</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
+    </li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">insert_link</i></div>
+        <div class="col s6 left">
+          <p>Enlaces</p>
+        </div>
+        <div class="col s3 right"><i class="material-icons">arrow_drop_down</i></div>
+      </div>
+    </li>
+    <li class="divider"></li>
+    <li class="grey-text text-darken-2">
+      <div class="row valign-wrapper sidenav-link">
+        <div class="col s3 left"><i class="material-icons">power_settings_new</i></div>
+        <div class="col s6 left">
+          <p>Logout</p>
+        </div>
+      </div>
+    </li>
   </ul>
 
   <ul class="dropdown-content" id="dropdown1">
@@ -88,21 +146,52 @@
   </div>
 
   <div class="row">
-    <div class="col m6 s12">
-      <div class="card">
-        <div class="card-image"><img src="" alt=""></div>
+    <div class="col m4 s12">
+      <div class="card medium">
+        <div class="card-image"><img src="imagenes/landscape.jpg" height="50%" alt=""></div>
         <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="card-action"><a href="">TITULO</a></div>
+          <span class="card-title activator grey-text text-darken-4">Perfil de usuario<i class="material-icons right">expand_less</i></span>
+          <span class="grey left nombre valign-wrapper lighten-1"><img src="imagenes/pikachu.jpg" height="40" width="40" class="circle" alt="" />Guillermo puertas</span>
+        </div>
+        <div class="card-action"><a class="right blue-text darken-3" id="modifica" href="">Modificar</a></div>
+        <div class="card-reveal">
+          <span class="card-title">Guillermo Puertas<i class="material-icons right">close</i></span>
+          <ul>
+            <li><i class="material-icons">person</i><span>CEO de Microsoft</span></li>
+            <li><i class="material-icons">phone</i><span>618 58 58 58</span></li>
+            <li><i class="material-icons">mail</i><span>guillermopuertas@usagmail.com</span></li>
+            <li><i class="material-icons">cake</i><span>31/4/1894</span></li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="col m6 s12">
+    <div class="col m8 s12">
       <div class="card">
         <div class="card-image"><img src="" alt=""></div>
         <div class="card-content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="card-action"><a href="">TITULO</a></div>
+          <span class="card-title center-align"><i class="material-icons medium left" id="icono-accesos">apps</i>Accesos frecuentes</span>
+          <div class="row center-align">
+            <div class="col s4 accesos impar"><i class="material-icons medium iconos-acceso">event_note</i>
+              <p>Diario de la clase</p>
+            </div>
+            <div class="col s4 accesos par"><i class="material-icons medium iconos-acceso">confirmation_number</i>
+              <p>Reservas</p>
+            </div>
+            <div class="col s4 accesos impar"><i class="material-icons medium iconos-acceso">schedule</i>
+              <p>Horario</p>
+            </div>
+
+            <div class="col s4 accesos par"><i class="material-icons medium iconos-acceso">event</i>
+              <p>Calendario</p>
+            </div>
+            <div class="col s4 accesos impar"><i class="material-icons medium iconos-acceso">book</i>
+              <p>Moodle</p>
+            </div>
+            <div class="col s4 accesos par"><i class="material-icons medium iconos-acceso">spellcheck</i>
+              <p>Recursos lingüísticos</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -112,29 +201,29 @@
     <div class="col s12">
       <div class="card white darken-1">
         <div class="card-content">
-          <span class="card-title">TITULO</span>
+          <span class="card-title"><i class="material-icons medium left">notifications_none</i>Próximos eventos</span>
           <table>
-            <th>header</th>
-            <th>header</th>
-            <th>header</th>
-            <th>header</th>
+            <th>De</th>
+            <th>Asunto</th>
+            <th>Fecha</th>
+            <th>Hora</th>
             <tr>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
+              <td>Dirección</td>
+              <td>Claustro</td>
+              <td>12/04/2018</td>
+              <td>14:00</td>
             </tr>
             <tr>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
+              <td>Departamento de informática</td>
+              <td>Discusión final Torneo de canicas</td>
+              <td>02/12/2022</td>
+              <td>14:61</td>
             </tr>
             <tr>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
-              <td>content</td>
+              <td>Departamento de canicas</td>
+              <td>Discusión final Torneo de informática</td>
+              <td>c20/22/1202</td>
+              <td>16:41</td>
             </tr>
           </table>
         </div>
